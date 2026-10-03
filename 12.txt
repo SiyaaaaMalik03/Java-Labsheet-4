@@ -1,0 +1,24 @@
+
+Q12. Multiple Inheritance: Concept Only
+
+Java does not support multiple inheritance using classes.
+
+For example:
+
+class A {
+}
+
+class B {
+}
+
+// Not allowed:
+// class C extends A, B {
+// }
+
+A Java class can extend only one class.
+
+Multiple inheritance can cause ambiguity when two parent
+classes contain methods with the same name.
+
+Therefore, Java does not allow a class to extend two classes.
+Interfaces are not used in this question. 
